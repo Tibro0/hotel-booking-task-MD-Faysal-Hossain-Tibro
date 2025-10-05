@@ -46,13 +46,15 @@ A comprehensive hotel booking system built with Laravel framework featuring room
 ### Step-by-Step Installation
 
 1. **Clone the repository**
-    ```bash
-    git clone https://github.com/Tibro0/hotel-booking-task-MD-Faysal-Hossain-Tibro.git hotel-booking-task
-    cd hotel-booking-task
-    composer install
-    cp .env.example .env
-    php artisan key:generate
-    ```
+
+```bash
+git clone https://github.com/Tibro0/hotel-booking-task-MD-Faysal-Hossain-Tibro.git hotel-booking-task
+cd hotel-booking-task
+composer install
+cp .env.example .env
+php artisan key:generate
+```
+
 2. **Edit .env file with your database credentials**
 
 ```bash
@@ -65,13 +67,16 @@ DB_PASSWORD=
 ```
 
 3. **Run migrations and seeders**
+
 ```bash
 php artisan migrate --seed
 ```
 
 4. **Start development server**
+
 ```bash
 php artisan serve
 ```
+
 5. **Access the application**
-Open your browser and visit: http://127.0.0.1:8000
+   Open your browser and visit: http://127.0.0.1:8000
